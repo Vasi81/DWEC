@@ -24,7 +24,7 @@ for (var i in array) {
 
 //Calculamos la media almacenandola en una variable y la sacamos por pantalla
 var media = suma / array.length;
-console.timeLog("<br/> La media es: " + media);
+console.log("<br/> La media es: " + media);
 
 //Calculo de la moda
 
