@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Actividad AE-1 javascript</title>
+    <script type="text/javascript" src="js/operaciones.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style_index.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="subcontainer">
+      <h2>Actividad AE-1 JavaScript</h2>
+      <script>
+ 
+        document.write('<br/>');
+        //Generamos los 10 números aleatorios.
+        document.write('<h1>Números generados de manera aleatoria : </h1>');
+        document.write('<br/>');
+        document.write('<h1>'+ GenerarArray()+'</h1>');
+        document.write('<br/>');
+        //Media Aritmética
+        document.write('<h1>Media Aritmética: '+ MediaAritmetica()+'</h1>');
+        document.write('<br/>');
+        //Moda
+        document.write('<h1>Moda: '+ Moda()+'</h1>');
+        document.write('<h4>*En caso de no obtener ninguna repetición en los elementos mostraremos valor 0.</h4>');
+        document.write('<br/>');
+        //Mediana
+        document.write('<h1>Mediana: '+ Mediana()+'</h1>');
+        document.write('<br/>');
+    </script>
+    </div>
+    <h1>Refresca la página para recalcular los números aleatorios.</h1>
+  </div>
+</body>
+
+</html>
