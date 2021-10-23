@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Propiedades titulo*/
+.titulo {
+  text-align: center;
+  font-size: 3em;
+  color: rgb(54, 53, 53);
+}
+
+body {
+  background-color: #989e4a;
+}
+/*Propiedades imagen*/
+.im1 {
+  display: inline-flex;
+  float: right;
+  width: 600px;
+  height: 600px;
+}
+/*Propiedades logo*/
+.im2 {
+  display: inline-flex;
+  float: left;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 0px;
+}
+
+/*Damos propiedades a contacto-info*/
+.contacto-info {
+  color: #fff;
+  font-family: sans-serif;
+  padding: 0 1.5em;
+  background: rgb(54, 53, 53);
+}
+
+/*quitamos las viñetas de la lista (ul) que aparecen al lado de los iconos y establecemos un padding de 0*/
+.contacto-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contacto-info ul li {
+  padding: 0.3em;
+}
+/*Establecemos un padding de 2em a todos los elementos de la clase contacto*/
+.contacto > * {
+  padding: 2em;
+}
+.contacto-info h4,
+.contacto-info ul,
+.contacto-info p {
+  padding: 1 em;
+  text-align: left;
+}
+
+/*Propiedades boton enviar*/
+button {
+  margin-bottom: 20px;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+}
+/*Responsive*/
+/*PANTALLA GRANDE*/
+@media (min-width: 700px) {
+  body {
+    padding: 0 4rem;
+  }
+  .contacto {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+/* iPhone posición vertical.*/
+@media screen and (max-device-width: 375px) and (min-device-height: 812px) and (orientation: portrait) {
+  .contacto {
+    width: 105%;
+    float: left;
+  }
+}
