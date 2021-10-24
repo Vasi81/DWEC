@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+    background: rgb(34, 51, 68);
+    font-family: monospace;
+}
+
+form{
+    padding-top: 30px;
+    text-align: center;
+}
+
+h1{
+    padding-top: 40px;
+    text-align: center;
+    color: #FFF;
+}
+
+p{
+    color: #FFF;
+}
+
+input{
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    background-color: #FFF;
+}
+
