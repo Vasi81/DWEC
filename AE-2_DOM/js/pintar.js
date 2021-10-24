@@ -247,7 +247,7 @@ formulario=document.createElement("form");
     opntionbox.setAttribute("value", "H");   
 
     divlocal.appendChild(opntionbox)
-
+    divlocal.appendChild(document.createElement("br"))
 
 
     let hmicroondas=document.createElement("h2");
@@ -260,6 +260,7 @@ formulario=document.createElement("form");
     opntionbox.setAttribute("id", "optmicroondas");    
     opntionbox.setAttribute("value", "M");  
     divlocal.appendChild(opntionbox)
+    divlocal.appendChild(document.createElement("br"))
 
     let hinduccion=document.createElement("h2");
     hinduccion.appendChild(document.createTextNode("Placa de inducción"));
@@ -371,6 +372,7 @@ formulario=document.createElement("form");
   }
 
     /**
+     * 3
    *  cargarSelect() : Función para incluir Select en el formulario.
    */
   function cargarSelect() {
