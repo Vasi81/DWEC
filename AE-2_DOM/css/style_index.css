@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+#container {
+
+    position: absolute;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 1000px;
+    max-height: 2100px;
+    left: 12%;
+    right: 12%;
+    top: 2%;
+    bottom: 5%;
+    border-radius: 10px;
+}
+
+header {
+	width: 100%;
+    height: 60px;
+    position: static;
+    margin-bottom: 30px;
+    z-index: 1;
+    background-color: #B5B6B8;
+}
+
+.subcontainer {
+	width: 96%;
+    margin: 2%;
+	background-color: #DBDBDD;
+}
+
+
+.dpersonales {
+	width: 96%;
+    margin: 2%;
+	background-color: #8484e6;
+    border-radius: 10px;
+    background-image: url("/img/slide-home.jpg");
+    
+}
+
+.modelos {
+	width: 96%;
+    margin: 2%;
+	background-color: #9c9cc2;
+    border-radius: 10px;
+
+}
+
+
+.selectcarpinteria {
+	width: 96%;
+    margin: 2%;
+	background-color: #78947d;
+    border-radius: 10px;
+}
+
+.selectcocina {
+	width: 96%;
+    height: 25%;
+    margin: 2%;
+	background-color: #658f6c;
+    border-radius: 10px;
+    left: 1%;
+}
+
+#envioform{
+	width: 96%;
+    margin: 2%;
+	background-color: #c27a4b;
+    border-radius: 10px;
+    
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+    height: 60px;
+
+}
+
+.otros {
+	width: 96%;
+    margin: 2%;
+	background-color: #929166;
+    border-radius: 10px;
+}
+
+.imagen {
+	width: 96%;
+    margin: 2%;
+	background-color: #afa6af;
+    border-radius: 10px;
+}
+
+#image{
+    width: 25%;
+    margin-left:20%;
+    border-radius: 10px;
+}
+
+#textArea{
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    margin-left:35%;  
+}
+
+select {
+    font-size: 75px;
+    margin-bottom: 1%;
+    margin-left:40%;  
+    width: 15%;
+    
+}
+    
+
+
+h1 {
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+    height: 60px;
+
+    vertical-align: middle;
+    color: #f5efef;
+	margin-top: 4px;
+    margin-bottom: 0;
+}
+h4 {
+    text-align: center;
+    color: #000000;
+	margin-top: 4px;
+    margin-bottom: 0;
+}
+
+h2 {
+	font-family: Verdana;
+	font-size: 16px;
+	color: white;
+	border: 1px solid #DBDBDD;
+	position: absolute;
+    background-color: #494626;
+    margin-top: 0%;
+    margin-left: 40%;
+	padding: 2px;
+
+}
+
+input{
+    margin: 1%;
+    margin-left: 40%;
+}
+
