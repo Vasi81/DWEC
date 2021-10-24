@@ -1,0 +1,103 @@
+html,
+body {
+    width: auto;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, sans-serif;
+    background-color:rgb(34, 51, 68);
+    color: #FFF;
+}
+
+.inputs {
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+.inputs p {
+    display: inline-block;
+    padding: 1% 1%;
+}
+
+.conjunto{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.Conjunto2{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 18%;
+    margin-bottom: 2%;
+}
+
+.radio1 {
+    float: left;
+    position: relative;
+    margin-left: 32%;
+    margin-top: 1%;
+    width: 15%;
+    margin-bottom: 1%;
+}
+
+.radio2 {
+    float: right;
+    position: relative;
+    margin-right: 32%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 15%;
+}
+
+.checkbox {
+    position: relative;
+    width: 15%;
+    margin-left: 32%;
+    float: left;
+    margin-bottom: 1%;
+}
+.Select{
+    position: relative;
+    width: 15%;
+    float: right;
+    margin-right: 32%;
+    margin-bottom: 1%;
+}
+.textarea{
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    margin-top: 2%;
+}
+
+p {
+    font-family: arial, sans-serif;
+}
+img{
+    width: 20%;
+    margin-left: 6%;
+    margin-right: 6%;
+    border-radius: 4%;
+    border-color: #8cc4e8;
+    border-style: solid;
+    border-width: 3%;
+}
+.conjuntof{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+input{
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    background-color: #FFF;
+}
