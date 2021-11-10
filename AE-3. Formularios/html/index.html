@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="/js/form.js"></script>
+    <title>Formulario</title>
+</head>
+
+<body>
+    <img class="foto 1" src="/img/pngegg (6).png" alt="imagen">
+    <form action="pedido.php" id="formulario" method="POST">
+        <fieldset>
+            <h2>Introduce los datos de tu pédido</h2>
+            <div class="nombre">
+                <label>Nombre:</label>
+                <input type="text" id="nombre" name="nombre" autofocus>
+            </div>
+            <div class="direccion">
+                <label>Dirección:</label>
+                <input type="text" id="direccion" name="direccion">
+            </div>
+            <div class="telefono">
+                <label>Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+            <div class="email">
+                <label>E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <h3>Elige el tamaño de tu pizza</h3>
+
+            <div class="peq">
+                <input type="radio" id="peq" name="tamanio" value="p">
+                <label>Pequeña</label>
+            </div>
+            <div class="med">
+                <input type="radio" id="med" name="tamanio" value="m">
+                <label>Mediana</label>
+            </div>
+            <div class="gr">
+                <input type="radio" id="gr" name="tamanio" value="g">
+                <label>Grande</label>
+            </div>
+            <h3>Elige tus ingredientes</h3>
+            <div>
+                <input type="checkbox" id="tomate" name="ingrediente">
+                <label>Tomate</label>
+            </div>
+            <div>
+                <input type="checkbox" id="queso" name="ingrediente">
+                <label>Queso</label>
+            </div>
+            <div>
+                <input type="checkbox" id="jamon" name="ingrediente">
+                <label>Jamón</label>
+            </div>
+            <div>
+                <input type="checkbox" id="champ" name="ingrediente">
+                <label>Champiñones</label>
+            </div>
+            <div>
+                <input type="submit" value="Procesar el pedido" class="btn-enviar">
+            </div>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
