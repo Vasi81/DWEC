@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>Ejercicio 3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js.js"></script>
+</head>
+<header>
+    <div class="titulo">
+        <h1>Formulario Pizza</h1>
+    </div>
+</header>
+
+<body>
+    <form name="formularioCompra">
+        <div class="datosPersonales">
+            <p>Nombre: <input type="text" name="nombre" id="nombrep" placeholder="La primera letra en mayus" /> <span id="error1"></span></p></br>
+            <p>Dirección: <input type="text" name="direccion" id="direccionp" /> <span id="error2"></span></p></br>
+            <p>Telefono: <input type="text" name="telefono" id="telefonop" placeholder="Numero de 9 digitos" /> <span
+                    id="error3"></span></p></br>
+            <p>Email: <input type="text" name="email" id="emailp" placeholder="algo@email.loquesea" /> <span
+                    id="error4"></span></p></br>
+        </div>
+        <div class="datosPizzas">
+            <div class="rButton">
+                <p>Seleccione un tamaño para la pizza:</p>
+                <div>
+                    <input type="radio" id="pequeña" name="tamañoPizzas" value="pequeña">
+                    <label for="pequeña">Pequeña</label>
+                </div>
+                <div>
+                    <input type="radio" id="mediana" name="tamañoPizzas" value="mediana">
+                    <label for="mediana">Mediana</label>
+                </div>
+                <div>
+                    <input type="radio" id="grande" name="tamañoPizzas" value="grande">
+                    <label for="grande">Grande</label>
+                </div>
+                <div class="cBox">
+                    <p>Seleccione los ingredientes para la pizza (Si no elige ninguno es solamente tomate y queso) :</p>
+                    <div>
+                        <input type="checkbox" id="cbox1" value="huevo" > <label
+                            for="cbox1">Huevo</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cbox2" value="cebolla"> <label for="cbox2">Cebolla
+                            caramelizada</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cbox3" value="pepperoni"> <label for="cbox3">Pepperoni</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cbox4" value="salchicha"> <label for="cbox4">Salchicha</label>
+                    </div>
+                </div>
+                <div class="boton">
+                    <br> <input type="button" name="botonAceptar" id="botonAceptar" value="Aceptar">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
