@@ -1,0 +1,63 @@
+html, body, .container-fluid {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.principal{
+    position: relative;
+    background-color: #c9c3c3;
+    width: 90%;
+    height: 90%;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-pizza{
+    height: 100px;
+}
+
+a:hover  {
+    border: 1px black solid;
+}
+
+.tipo-pizza {
+    position: relative;
+    left: 42%;
+    width: 17%;
+}
+
+.titles {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.personal-info {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    clear: both;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.personal-info input {
+    width: 100%;
+    clear: both;
+}
+
+#btnEnviar {
+    position: relative;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%);
+}
+
+.centrar {
+    position: relative;
+    left: 45%;
+    top: 50px;
+    transform: translate(-50%);
+}

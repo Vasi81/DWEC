@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+<div class="principal">
+    <form id="formulario" action="URL">
+        <div class="personal-info">
+            <span class="titles">Datos personales</span>
+            <p>Nombre <input type="text" id="name"></p>
+            <p>Dirección <input type="text" id="adress"></p>
+            <p>Teléfono <input type="text" id="phone" maxlength="9" pattern="[679][0-9]{8}"></p>
+            <p>Email <input type="text" id="email"></p>
+        </div>
+
+        <span class="titles type-pizza">Tamaño de pizza</span>
+        <div class="tipo-pizza">
+            Pequeña <input type="radio" name="tamPizza" value="small" onclick="sizePizza()">
+            Mediana <input type="radio" name="tamPizza" value="medium" onclick="sizePizza()">
+            Grande <input type="radio" name="tamPizza" value="large" onclick="sizePizza()">
+        </div>
+
+        <span class="titles type-pizza">Ingredientes</span>
+        <div class="tipo-pizza">
+           Bacon <input type="checkbox" name="ingred" value="bacon" onclick="ingredientes()">
+           Queso <input type="checkbox" name="ingred" value="queso" onclick="ingredientes()">
+           Huevo <input type="checkbox" name="ingred" value="huevo" onclick="ingredientes()">
+           Cebolla <input type="checkbox" name="ingred" value="cebolla" onclick="ingredientes()">
+        </div>
+        <span id="precio" class="centrar">Precio:</span>
+        <input type="submit" id="btnEnviar">
+    </form>
+</div>
+
+</body>
+
+</html>
