@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Actividad AE-3 javascript</title>
+    <script type="text/javascript" src="js/validar.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style_index.css">
+</head>
+
+<body>
+  <form id="formulario" action="URL">
+    <div id="container">
+      <h1>Pedido a domicilio</h1>
+      <div class="containerDatos">
+        <h2>Datos Personales</h2>
+        <div class="subtype">
+          <h4>Nombre:</h4>
+          <input type="text" id="nombre" value=""/>
+          <h5 id="ErrorName">Por favor, el campo Nombre debe comenzar con mayúsculas</h5>
+          <h4>Dirección:</h4>
+          <input type="text" id="direccion" value=""/>
+          <h5 id="ErrorDireccion">Por favor, complete el campo Dirección</h5>
+          <h4>Teléfono:</h4>
+          <input type="text" id="telefono" value=""/>
+          <h5 id="ErrorTel">Por favor, complete el campo Teléfono con 9 caracteres numéricos</h5>
+          <h4>Email:</h4>
+          <input type="text" id="email" value=""/>
+          <h5 id="ErrorEmail">Por favor, complete el campo Email correctamente</h5>
+        </div>
+      </div>
+      <div class="containerPizza">
+        <h2>Tamaño</h2>
+        <br>
+        <div class="subtype">
+          <input type="radio" value="Pequeña" name="size" id="size_peq"/> Pequeña 5€
+          <br>
+          <input type="radio" value="Mediana" name="size" id="size_mediana"/> Mediana 10€
+          <br>
+          <input type="radio" value="Grande" name="size" id="size_grande"/> Grande 15€
+          <h5 id="ErrorRadio">Por favor, seleccione un tamaño para la pizza</h5>
+      </div>
+      </div>
+      <div class="containerIngredientes">
+        <h2>Ingredientes</h2>
+        <div class="subtype">
+          <input type="checkbox" value="Atún" name="ingredientes" id="ing_atun"/> Atún
+          <br>
+          <input  type="checkbox" value="Cebolla" name="ingredientes" id="ing_cebolla"/> Cebolla
+          <br>
+          <input  type="checkbox" value="Champiñón" name="ingredientes" id="ing_champiñon"/> Champiñón
+          <br>
+          <input  type="checkbox" value="Pollo" name="ingredientes" id="ing_pollo"/> Pollo
+          <h5 id="ErrorCheck">Por favor, seleccione algun ingrediente para la pizza</h5>
+          <h4>Cada ingrediente elegido tendrá un valor de 1€</h4>
+      </div>
+      </div>
+      <div class="containercontrol">
+        <button id="btnvalidar">Procesar pedido</button>
+        <button  id="btnCancelar" name="btnCancelar" size="20">Cancelar pedido</button>
+        <div id="ventanaEmergente">
+          <div id="pedido">Confirmación de pedido</div>
+          <h4>Gracias por su pedido!!!</h4>
+          <p id="tamanopizza">Tamaño Pizza: </p>
+          <p id="ingredientes">Número de ingredientes: </p>
+          <p id="totalpedido">Total Pedido: </p>
+          <div id="confirmar">
+              <input type="submit" id="btnAceptar" name="btnAceptar" size="20" value="Confirmar" />
+          </div>
+        </div>
+      </div>
+  </div>
+  </form>
+</body>
+</html>
