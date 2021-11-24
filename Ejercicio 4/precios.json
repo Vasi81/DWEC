@@ -1,0 +1,17 @@
+{
+    "Pizzeria": {
+        "Ingredientes": [{
+            "Huevo": 1,
+            "Cebolla": 1,
+            "Pepperoni": 1,
+            "Salchicha": 1
+        }],
+        "Tamaños": [{
+                "Pequeño": 5,
+                "Mediano": 10,
+                "Grande": 15
+            }
+
+        ]
+    }
+}
