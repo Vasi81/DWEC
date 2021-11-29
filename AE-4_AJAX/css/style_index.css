@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+.subcontainer {
+	width: 96%;
+    margin: 2%;
+	background-color: #86dfd0;
+}
+
+#container {
+
+    position: relative;
+    min-width: 50%;
+    min-height: 50%;
+    max-width: 50%;
+    max-height: 50%;
+    left: 20%;
+    top: 2%;
+    bottom: 5%;
+    border-radius: 10px;
+    background-color: #86dfd0;
+}
+
+.containerDatos {
+
+    position: relative;
+    width: 75%;
+    height: 350px;
+    left: 12%;
+    right: 12%;
+    top: 2%;
+    bottom: 5%;
+    border-radius: 10px;
+    background-color: #3b7c71;
+}
+
+
+.containerPizza {
+
+    position: relative;
+    width: 75%;
+    height: 150px;
+    left: 12%;
+    right: 12%;
+    top: 2%;
+    bottom: 5%;
+    border-radius: 10px;
+    background-color: #c287c4;
+}
+    
+.containerIngredientes {
+
+    position: relative;
+    width: 75%;
+    height: 200px;
+    left: 12%;
+    right: 12%;
+    top: 2%;
+    bottom: 5%;
+    border-radius: 10px;
+    background-color: #ce96a4;
+}
+
+.containercontrol {
+
+    position: relative;
+    width: 75%;
+    height: 100px;
+    left: 12%;
+    right: 12%;
+    top: 2%;
+    bottom: 5%;
+    border-radius: 10px;
+    background-color: #818794;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 50px;
+    text-align: center;
+    height: 60px;
+
+    vertical-align: middle;
+    color: #555252;
+	margin-top: 4px;
+    margin-bottom: 0;
+
+}
+h4 {
+    text-align: left;
+    color: #000000;
+	margin-top: 4px;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+h2 {
+	font-family: Verdana;
+	font-size: 16px;
+	color: white;
+	border: 1px solid #DBDBDD;
+	position: absolute;
+    background-color: #494626;
+    margin-top: 0%;
+    margin-left: 40%;
+	padding: 2px;
+
+}
+
+input{
+    margin: 1%;
+
+}
+
+.subtype{
+    position: relative;
+    width: 350px;
+    height: 300px;
+    top: 15%;
+    margin-left: 30%;
+}
+
+#btnvalidar {
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+#btnRefreshPizza {
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+#ventanaEmergente{
+    position: fixed; 
+    width: 350px; 
+    height: 190px; 
+    top: 20%; 
+    left: -5%; 
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 12px; 
+    font-weight: bold; 
+    border: #333333 3px solid; 
+    background-color: #FAFAFA; 
+    color: #000000; 
+    display:none;
+}
+
+.p {
+    font-weight: bold; 
+    
+}
+
+#pedido {
+    font-weight: bold; 
+    text-align: left; 
+    color: #FFFFFF; 
+    padding: 5px; 
+    background-color:#006394
+}
+
+#confirmar{
+    padding: 10px; 
+    background-color: #F0F0F0; 
+    text-align: center; 
+    margin-top: 44px;
+}
+
+h5{
+    font-weight: bold; 
+    color: red; 
+    display:none;
+    font-size: 15px;
+    align-items: center;
+}

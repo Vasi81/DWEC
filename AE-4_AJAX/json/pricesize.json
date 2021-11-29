@@ -1,0 +1,38 @@
+{
+  "pizza": {
+    "sizeprice": [
+      {
+        "size": "Pequeña",
+        "price": "10"
+      },
+      {
+        "size": "Mediana",
+        "price": "15"
+      },
+      {
+        "size": "Grande",
+        "price": "20"
+      }
+    ]
+  },
+  "ingredients": {
+    "ingredientsprice": [
+      {
+        "ingredients": "Atún",
+        "price": "1"
+      },
+      {
+        "ingredients": "Cebolla",
+        "price": "2"
+      },
+      {
+        "ingredients": "Champiñón",
+        "price": "1"
+      },
+      {
+        "ingredients": "Carne",
+        "price": "2"
+      }
+    ]
+  }
+}
